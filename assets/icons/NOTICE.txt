@@ -1,0 +1,6 @@
+GitHub, arXiv, Hugging Face and Qwen icons: Simple Icons, CC0-1.0.
+https://simpleicons.org/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+GitHub source: https://raw.githubusercontent.com/simple-icons/simple-icons/13.21.0/icons/github.svg
+Other icon paths reused from ../../../assets/readme/badges/; colors adapted for the cover.

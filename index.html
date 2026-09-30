@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080e14">
+  <meta name="description" content="OmniReasoning — Pushing the Limits of Audio-Visual Joint Reasoning.">
+  <meta property="og:title" content="OmniReasoning">
+  <meta property="og:description" content="Pushing the Limits of Audio-Visual Joint Reasoning">
+  <meta property="og:image" content="assets/hero.jpg">
+  <title>OmniReasoning</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="stage" aria-label="OmniReasoning interactive artwork">
+    <h1 class="sr-only">OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning</h1>
+    <p id="instructions" class="sr-only">Scroll or drag to move the video mosaic. Click or press Space to pause or resume. Double-click or press plus and minus to zoom. When zoomed in, drag to pan. Pinch to zoom on a touchscreen. Use the arrow keys to move the mosaic. Press Escape or Home to reset.</p>
+    <div class="artwork">
+      <div class="fallback" role="img" aria-label="OmniReasoning — Pushing the Limits of Audio-Visual Joint Reasoning. A full-screen video mosaic with illuminated lettering.">
+        <img src="assets/static-lettering.webp" width="1920" height="605" alt="" fetchpriority="high">
+      </div>
+      <canvas class="mosaic" width="1920" height="605" tabindex="0" role="img" aria-label="Animated OmniReasoning video mosaic" aria-describedby="instructions" title="Scroll or drag to move · Click to pause · Double-click to zoom" hidden></canvas>
+    </div>
+    <nav class="resource-links" aria-label="Project resources">
+      <a class="resource-link" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)" title="GitHub">
+        <img src="assets/icons/github.svg" width="26" height="26" alt="">
+      </a>
+      <a class="resource-link" href="https://arxiv.org/" target="_blank" rel="noopener noreferrer" aria-label="arXiv (opens in a new tab)" title="arXiv">
+        <img src="assets/icons/arxiv.svg" width="26" height="26" alt="">
+      </a>
+      <a class="resource-link" href="https://huggingface.co/" target="_blank" rel="noopener noreferrer" aria-label="Hugging Face (opens in a new tab)" title="Hugging Face">
+        <img src="assets/icons/huggingface.svg" width="28" height="28" alt="">
+      </a>
+      <a class="resource-link" href="https://qwen.ai/blog?id=qwen3.8-omni-flash" target="_blank" rel="noopener noreferrer" aria-label="Qwen3.8-Omni blog (opens in a new tab)" title="Qwen3.8-Omni blog">
+        <img src="assets/icons/qwen.svg" width="28" height="28" alt="">
+      </a>
+    </nav>
+    <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>
